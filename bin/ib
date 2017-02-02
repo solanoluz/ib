@@ -9,7 +9,7 @@ module IB
   class ControllerGenerator < Thor
     include Thor::Actions
     include Thor::RakeCompat
-    
+
     map "c" => :controller
 
     def self.source_root
@@ -60,4 +60,4 @@ module IB
   end
 end
 
-IB::ControllerGenerator.start
+# IB::ControllerGenerator.start
